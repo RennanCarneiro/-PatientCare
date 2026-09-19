@@ -1,14 +1,33 @@
 package com.rennancarneiro.patientcare.dto;
+
 import com.rennancarneiro.patientcare.model.Sexo;
+
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Past;
+import jakarta.validation.constraints.Size;
+
 import java.time.LocalDate;
 
 public class PacienteRequestDTO {
 
+    @NotBlank(message = "O nome é obrigatório")
     private String nome;
+
+    @NotNull(message = "O sexo é obrigatório")
     private Sexo sexo;
+
+    @NotBlank(message = "O CPF é obrigatório")
+    @Size(min = 11, max = 11, message = "O CPF deve possuir 11 caracteres")
     private String cpf;
+
+    @NotNull(message = "A data de nascimento é obrigatória")
+    @Past(message = "A data de nascimento deve estar no passado")
     private LocalDate dataNascimento;
+
     private String convenio;
+
+    @NotBlank(message = "O telefone é obrigatório")
     private String telefone;
 
     public String getNome() {
