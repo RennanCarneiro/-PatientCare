@@ -1,7 +1,9 @@
-import com.rennanarneiro.patientcare.dto.PacienteRequestDTO;
-import com.rennanarneiro.patientcare.dto.PacienteResponseDTO;
+package com.rennancarneiro.patientcare.service;
+import com.rennancarneiro.patientcare.dto.PacienteRequestDTO;
+import com.rennancarneiro.patientcare.dto.PacienteResponseDTO;
+import java.util.List;
 
-public interface PacientService {
+public interface PacienteService {
     PacienteResponseDTO criar(PacienteRequestDTO dto);
 
     List<PacienteResponseDTO> listar();

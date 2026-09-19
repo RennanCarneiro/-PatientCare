@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:17
+    container_name: patientcare-postgres
+    environment:
+      POSTGRES_DB: patientcare
+      POSTGRES_USER: patientcare
+      POSTGRES_PASSWORD: patientcare
+    ports:
+      - "5432:5432"
+    volumes:
+      - patientcare_data:/var/lib/postgresql/data
+
+volumes:
+  patientcare_data:

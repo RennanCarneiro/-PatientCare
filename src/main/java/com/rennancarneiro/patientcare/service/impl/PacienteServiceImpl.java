@@ -1,12 +1,12 @@
-package com.rennanarneiro.patientcare.service.impl;
+package com.rennancarneiro.patientcare.service.impl;
 
-import com.rennanarneiro.patientcare.dto.PacienteRequestDTO;
-import com.rennanarneiro.patientcare.dto.PacienteResponseDTO;
-import com.rennanarneiro.patientcare.exception.PacienteNaoEncontradoException;
-import com.rennanarneiro.patientcare.mapper.PacienteMapper;
-import com.rennanarneiro.patientcare.model.Paciente;
-import com.rennanarneiro.patientcare.repository.PacienteRepository;
-import com.rennanarneiro.patientcare.service.PacienteService;
+import com.rennancarneiro.patientcare.dto.PacienteRequestDTO;
+import com.rennancarneiro.patientcare.dto.PacienteResponseDTO;
+import com.rennancarneiro.patientcare.exception.PacienteNaoEncontradoException;
+import com.rennancarneiro.patientcare.mapper.PacienteMapper;
+import com.rennancarneiro.patientcare.model.Paciente;
+import com.rennancarneiro.patientcare.repository.PacienteRepository;
+import com.rennancarneiro.patientcare.service.PacienteService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

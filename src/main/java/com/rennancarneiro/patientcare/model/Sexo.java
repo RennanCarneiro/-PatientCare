@@ -1,3 +1,6 @@
+package com.rennancarneiro.patientcare.model;
+
 public enum Sexo {
-    MASCULINO, FEMININO
+    MASCULINO,
+    FEMININO
 }

@@ -1,8 +1,8 @@
-package com.rennanarneiro.patientcare.mapper;
+package com.rennancarneiro.patientcare.mapper;
 
-import com.rennanarneiro.patientcare.dto.PacienteRequestDTO;
-import com.rennanarneiro.patientcare.dto.PacienteResponseDTO;
-import com.rennanarneiro.patientcare.model.Paciente;
+import com.rennancarneiro.patientcare.dto.PacienteRequestDTO;
+import com.rennancarneiro.patientcare.dto.PacienteResponseDTO;
+import com.rennancarneiro.patientcare.model.Paciente;
 import org.springframework.stereotype.Component;
 
 @Component

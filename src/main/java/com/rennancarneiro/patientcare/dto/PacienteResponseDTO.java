@@ -1,4 +1,5 @@
-import com.rennanarneiro.patientcare.model.Sexo;
+package com.rennancarneiro.patientcare.dto;
+import com.rennancarneiro.patientcare.model.Sexo;
 import java.time.LocalDate;
 
 public class PacienteResponseDTO {
