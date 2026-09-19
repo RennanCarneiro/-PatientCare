@@ -35,3 +35,18 @@ out/
 
 ### VS Code ###
 .vscode/
+
+### Environment / Secrets ###
+.env
+.env.*
+
+### Logs ###
+*.log
+
+### OS ###
+.DS_Store
+Thumbs.db
+
+### Local Spring config ###
+application-local.properties
+application-local.yml
